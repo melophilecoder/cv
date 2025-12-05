@@ -269,20 +269,23 @@ header.shadow {
   margin-top: 4rem;
 }
 
-.skills-img img {
-  width: 80%;
-  padding-left: 4rem;
-  object-position: center;
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
 }
 
-.bars-box {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0;
-  margin-bottom: 1rem;
+.skills-img {
+  justify-self: end;
 }
+
+.skills-img img {
+  width: 100%;
+  object-fit: contain;
+}
+
 
 .bars-box h3,
 span {
