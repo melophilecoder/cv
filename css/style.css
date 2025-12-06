@@ -1,4 +1,4 @@
-/* Google Fonts */
+ /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
@@ -269,23 +269,20 @@ header.shadow {
   margin-top: 4rem;
 }
 
-.skills-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 4rem;
-}
-
-.skills-img {
-  justify-self: end;
-}
-
 .skills-img img {
-  width: 100%;
-  object-fit: contain;
+  width: 80%;
+  padding-left: 4rem;
+  object-position: center;
 }
 
+.bars-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
 
 .bars-box h3,
 span {
